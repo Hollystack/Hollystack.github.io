@@ -1,0 +1,55 @@
+/*website style*/
+
+header {
+    width: 100%;
+    float: left;
+    font-family: "courier new", serif;
+    text-align: center;
+}
+nav {
+    width: 20%;
+    float: left;
+    font-family: "courier new", serif;
+}
+nav ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+
+    text-align: center;
+    a {
+        display: block;
+        color: #626262;
+        padding: 8px 0 8px 16px;
+        text-decoration: none;
+
+    }
+    a:hover {
+        color: #FF0000;
+        text-decoration: underline;
+    }
+}
+
+main {
+    width: 60%;
+    float: left;
+    min-height: 400px;
+    font-size: large;
+    font-family: "courier new", serif;
+}
+main img{
+    display: block;
+    margin: 0 auto;
+}
+main p{
+    margin-top: 30px;
+    text-indent: 25px;
+}
+
+footer {
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+}
