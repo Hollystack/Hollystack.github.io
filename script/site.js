@@ -7,6 +7,7 @@ const isEvening = hours >= 17 || hours < 4 // is it evening?
 const welcome = document.querySelector('#welcome')
 const message = document.createElement('h1')
 
+localStorage.setItem("It's a secret to everybody.", "I have no clue what I'm doing")
 
 welcome.innerHTML = ''
 // message.textContent = 'Testing'
